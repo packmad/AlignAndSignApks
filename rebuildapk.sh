@@ -27,4 +27,6 @@ if [ -d "$1" ]; then
             fi
         fi
     fi
+else
+    echo "Usage: rebuildapk.sh apktoolOutputDirectory/"
 fi
